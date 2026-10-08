@@ -26,8 +26,3 @@ echo "\n";
 var_dump(can_move_as('officer', 'Under review', 'Approved'));   // false
 var_dump(can_move_as('approver', 'Under review', 'Approved'));  // true
 var_dump(can_move_as('requester', 'Rejected', 'Submitted'));    // true
-
-// Why an array is better than if/elseif:
-// To change a rule, I edit one line of data instead of changing code.
-// The code stays short and the same for every status, so there are
-// fewer places for bugs.
