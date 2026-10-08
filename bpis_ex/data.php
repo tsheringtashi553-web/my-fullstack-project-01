@@ -2,7 +2,6 @@
 
 declare(strict_types=1);
 
-// All data is fictional. Copied exactly from the exercise sheet.
 $requests = [
     ['id' => 1, 'first' => 'Pema',    'last' => 'Wangmo', 'cid' => '10101001234', 'dzongkhag' => 'Thimphu',  'field' => 'Date of birth', 'status' => 'Submitted',    'submitted' => '2026-09-14'],
     ['id' => 2, 'first' => ' sonam ', 'last' => 'dorji',  'cid' => '1010100123',  'dzongkhag' => 'paro',     'field' => 'Name',          'status' => 'Under review', 'submitted' => '2026-09-20'],
