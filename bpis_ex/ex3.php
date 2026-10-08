@@ -31,5 +31,3 @@ foreach ($requests as $r) {
 // ---- Part C: what happens with id 12345? ----
 echo "\nBig id\n";
 echo make_reference(12345, 'Paro', '2026-09-20') . "\n"; // PAR-2026-12345
-// Decision: this is acceptable. The id is not cut, so no data is lost
-// and the reference is still unique. It is just 1 digit longer.
